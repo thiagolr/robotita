@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 Thiago Lopes Rosa
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_background"
+    android:paddingTop="?attr/actionBarSize" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerInParent="true"
+        android:overScrollMode="never"
+        android:paddingTop="?attr/actionBarSize" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/control_motor_top" />
+
+            <Switch
+                android:id="@+id/relay_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textOff="@string/control_reverse"
+                android:textOn="@string/control_forward" />
+
+            <SeekBar
+                android:id="@+id/esc_top"
+                style="@style/SeekBarTheme"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:max="179"
+                android:progress="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/control_margin"
+                android:gravity="center"
+                android:text="@string/control_motor_bottom" />
+
+            <Switch
+                android:id="@+id/relay_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textOff="@string/control_reverse"
+                android:textOn="@string/control_forward" />
+
+            <SeekBar
+                android:id="@+id/esc_bottom"
+                style="@style/SeekBarTheme"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:max="179"
+                android:progress="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/control_margin"
+                android:gravity="center"
+                android:text="@string/control_servo_feed" />
+
+            <Switch
+                android:id="@+id/servo_feed_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textOff="@string/control_off"
+                android:textOn="@string/control_on" />
+
+            <SeekBar
+                android:id="@+id/servo_feed"
+                style="@style/SeekBarTheme"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:max="150"
+                android:progress="150" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/control_margin"
+                android:gravity="center"
+                android:text="@string/control_servo_rotation" />
+
+            <SeekBar
+                android:id="@+id/servo_rotation"
+                style="@style/SeekBarTheme"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:max="179"
+                android:progress="90" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/control_margin"
+                android:gravity="center"
+                android:text="@string/control_servo_agitator" />
+
+            <Switch
+                android:id="@+id/servo_agitator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textOff="@string/control_off"
+                android:textOn="@string/control_on" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/control_margin"
+                android:gravity="center"
+                android:text="@string/control_servo_horizontal" />
+
+            <SeekBar
+                android:id="@+id/servo_horizontal"
+                style="@style/SeekBarTheme"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:max="179"
+                android:progress="90" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/control_margin"
+                android:gravity="center"
+                android:text="@string/control_servo_vertical" />
+
+            <SeekBar
+                android:id="@+id/servo_vertical"
+                style="@style/SeekBarTheme"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:max="179"
+                android:progress="90" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

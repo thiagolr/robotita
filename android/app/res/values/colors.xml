@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 Thiago Lopes Rosa
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <color name="primary">#607D8B</color> <!-- 500 -->
+    <color name="primary_alpha">#60607D8B</color> <!-- 500 -->
+    <color name="primary_dark">#455A64</color> <!-- 700 -->
+    <color name="primary_dark_alpha_double">#60455A64</color> <!-- 700 -->
+    <color name="primary_light">#ECEFF1</color> <!-- 50 -->
+    <color name="accent">#009688</color> <!-- 500 -->
+    <color name="accent_alpha">#60009688</color> <!-- 500 -->
+    <color name="accent_alpha_double">#20009688</color> <!-- 500 -->
+    <color name="primary_text">#212121</color> <!-- 900 -->
+    <color name="secondary_text">#757575</color> <!-- 600 -->
+    <color name="divider">#20000000</color>
+    <color name="background">#FFF0F0F0</color>
+    <color name="background_dark">#22000000</color>
+    <color name="error">#60F44336</color>
+    <color name="shadow">#88333333</color>
+    <color name="grid_content">#FF000000</color>
+    <color name="grid_line">#FFCCCCCC</color>
+    <color name="theme_background">@color/background</color>
+    <color name="theme_primary">@color/primary</color>
+    <color name="theme_secondary">@color/primary_dark</color>
+    <color name="theme_accent">@color/accent</color>
+    <color name="theme_shadow">@color/shadow</color>
+    <color name="theme_text">@color/primary_text</color>
+    <color name="theme_list_text">@color/primary_text</color>
+    <color name="theme_list_subtext">@color/secondary_text</color>
+    <color name="theme_list_divider">@color/divider</color>
+    <color name="theme_list_selector">@color/accent_alpha_double</color>
+    <color name="theme_button_text">@color/white</color>
+    <color name="theme_button_inset_pressed">@color/primary_dark_alpha_double</color>
+    <color name="theme_button_inset_hover">@color/primary_alpha</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

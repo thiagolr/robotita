@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 Thiago Lopes Rosa
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_item"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/list_item_margin"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/BaseText"
+                android:textColor="@color/theme_list_text"
+                android:textSize="@dimen/list_text_big" />
+
+            <TextView
+                android:id="@+id/mac"
+                style="@style/BaseText"
+                android:layout_marginTop="@dimen/list_item_spacing"
+                android:textColor="@color/theme_list_subtext"
+                android:textSize="@dimen/list_text_small" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/status"
+            style="@style/BaseText"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/list_item_margin"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/theme_accent"
+            android:textSize="@dimen/list_text_normal" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_divider"
+        android:background="@color/theme_list_divider" />
+
+</LinearLayout>

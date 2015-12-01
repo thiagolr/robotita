@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2015 Thiago Lopes Rosa
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <style name="AppTheme" parent="@style/AppBaseTheme"></style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_secondary</item>
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:seekBarStyle">@style/SeekBarTheme</item>
+    </style>
+
+    <!-- ***************************************************************************************** -->
+    <!-- ***************************************************************************************** -->
+
+
+    <!-- TEXT -->
+    <style name="BaseText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/theme_text</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <!-- IMAGE -->
+    <style name="BaseImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- BUTTON -->
+    <style name="BaseButtonText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:minWidth">0dip</item>
+        <item name="android:minHeight">0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/button_padding</item>
+        <item name="android:paddingBottom">@dimen/button_padding</item>
+        <item name="android:textColor">@color/theme_button_text</item>
+        <item name="android:textSize">@dimen/button_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- LIST -->
+    <style name="BaseList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">@drawable/list_item</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbarFadeDuration">0</item>
+        <item name="android:requiresFadingEdge">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:divider">@color/theme_list_divider</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarSize">@dimen/list_scrollbar_width</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbarThumbVertical">@color/theme_secondary</item>
+    </style>
+
+    <!-- CARDVIEW -->
+    <style name="BaseCardView">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">@drawable/card_foreground</item>
+        <item name="cardBackgroundColor">@color/theme_primary</item>
+        <item name="cardCornerRadius">2dp</item>
+        <item name="cardElevation">3dp</item>
+    </style>
+
+    <!-- PROGRESS -->
+    <style name="BaseProgress">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate</item>
+        <item name="android:indeterminateDuration">1000</item>
+    </style>
+
+    <!-- SEEKBAR -->
+    <style name="SeekBarTheme" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_progress</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_progress</item>
+        <item name="android:thumb">@drawable/seekbar_control</item>
+    </style>
+
+</resources>
