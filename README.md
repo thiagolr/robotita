@@ -5,7 +5,7 @@ RoboTita
 
 The project was created by [tbkdan](http://www.instructables.com/member/tbkdan/) and published on Instructables:
 
-&nbsp;&nbsp;&nbsp;&nbsp;[http://www.instructables.com/id/Homemade-table-tennis-robot](http://www.instructables.com/id/Homemade-table-tennis-robot)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[http://www.instructables.com/id/Homemade-table-tennis-robot](http://www.instructables.com/id/Homemade-table-tennis-robot)
 
 ### Software
 
@@ -25,8 +25,8 @@ This application allows you to:
 
 ### Download
 
-[RoboTita_RT-01.00.00.apk](/releases/download/RT-01.00.00/RoboTita_RT-01.00.00.apk)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RoboTita_RT-01.00.00.apk](https://github.com/thiagolr/robotita/releases/download/RT-01.00.00/RoboTita_RT-01.00.00.apk)
 
 ### Screenshots
 
-<img src="/media/screenshot1.png?raw=true" width="250"> <img src="/media/screenshot2.png?raw=true" width="250"> <img src="/media/screenshot3.png?raw=true" width="250">
+<img src="/media/screenshot1.png?raw=true" width="280">&nbsp;&nbsp;&nbsp;&nbsp;<img src="/media/screenshot2.png?raw=true" width="280">&nbsp;&nbsp;&nbsp;&nbsp;<img src="/media/screenshot3.png?raw=true" width="280">
