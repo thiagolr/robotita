@@ -1,15 +1,15 @@
 RoboTita
 ========
 
-## Homemade Table Tennis Robot
+### Homemade Table Tennis Robot
 
 The project was created by [tbkdan](http://www.instructables.com/member/tbkdan/) and published on Instructables:
 
-  [http://www.instructables.com/id/Homemade-table-tennis-robot](http://www.instructables.com/id/Homemade-table-tennis-robot)
+&nbsp;&nbsp;&nbsp;&nbsp;[http://www.instructables.com/id/Homemade-table-tennis-robot](http://www.instructables.com/id/Homemade-table-tennis-robot)
 
-## Software
+### Software
 
-Due to the lack of software to control the robot, I decided to create and Android application to control the robot via Bluetooth.
+Due to the lack of software to control the robot, I decided to create and Android application to control it via Bluetooth.
 
 This application allows you to:
  - connect to the robot
@@ -25,8 +25,8 @@ This application allows you to:
 
 ### Download
 
-[RoboTita_RT-01.00.00.apk](/release/RoboTita_RT-01.00.00.apk)
+[RoboTita_RT-01.00.00.apk](/releases/download/RT-01.00.00/RoboTita_RT-01.00.00.apk)
 
 ### Screenshots
 
-<img src="/media/screenshot1.png?raw=true" width="200"> <img src="/media/screenshot2.png?raw=true" width="200"> <img src="/media/screenshot3.png?raw=true" width="200">
+<img src="/media/screenshot1.png?raw=true" width="250"> <img src="/media/screenshot2.png?raw=true" width="250"> <img src="/media/screenshot3.png?raw=true" width="250">
